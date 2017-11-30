@@ -3,7 +3,7 @@ jQuery(function($) {
 	//#main-slider
 	$(function(){
 		$('#main-slider.carousel').carousel({
-			interval: 8000
+			interval: 100
 		});
 	});
 
@@ -56,9 +56,6 @@ jQuery(function($) {
 
 	//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
-		// social_tools: false,
-		theme:'facebook',
-		slideshow:500,
-		autoplay_slideshow:true
+		social_tools: false
 	});
 });
