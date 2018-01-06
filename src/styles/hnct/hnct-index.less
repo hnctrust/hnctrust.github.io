@@ -1,0 +1,40 @@
+.landing-cta {
+ opacity:0;
+ animation: landing_cta 1.5s ease 2s forwards;
+}
+
+@keyframes landing_cta {
+  0%{
+	transform: translateY(20px);
+  }
+  100%{
+	transform: translateY(0);
+	opacity:1;
+  }
+}
+
+main.container {
+    section + section {
+        margin-top: 20px;
+    }
+}
+
+.content-section {
+    padding: 1em;
+    .title {
+        margin-bottom: .75em;
+        &:after {
+            content: "";
+            display: block;
+            height: 4px;
+            width: 40px;
+            background-color: #d2d2d2;
+            margin-top: 20px;
+        }
+    }
+}
+
+.bg-section{
+    background-color: @brand-primary;
+    color: #fff;
+}
