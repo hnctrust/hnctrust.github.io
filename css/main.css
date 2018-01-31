@@ -356,6 +356,8 @@ body > section {
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
+  background-position: 0% 0%;
+  background-size: 100% 150%;
 }
 #main-slider .carousel .item:first-child {
   top: auto;
